@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+/* -----------------Navbar section-----------------*/
+
+.navbar{
+    padding: 0px 0 !important;
+    font-size: 20px;
+    background-color:white !important;
+    color: black !important;
+}
+.navbar img{
+    width: 200px;
+    height: 65px;
+    margin-left: -50px;
+}
+.navbar .nav-link{
+    color: black !important;
+    font-weight: bold;
+    padding: 30px;
+}
+.navbar button{
+    color: black !important;
+}
+
+section{
+    margin-top: 150px;
+}
+.card img{
+      margin: 0px !important;
+      position: relative;
+       width: 100% !important;
+     height: 300px !important;
+      position: relative;
+}
+
+h5,h6,h3{
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+h6{
+    margin-top: 0px !important;
+    margin-bottom: 20px;
+}
+.card{
+    margin-bottom: 20px;
+}
+.myimg{
+    position: relative;
+}
+.navbar .nav-link:hover{
+  background-color: grey;
+}
+.cart{
+    margin-top: 80px;
+    margin-left: 100px;
+    color: black !important;
+    box-shadow: white;
+}
+.cart h6{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.cart th{
+    font-weight: bold;
+    font-size: 20px;
+}
+.cart img{
+    width: 50px !important;
+    height: 50px !important;
+}
+.cart td a{
+    color: aqua;
+    font-weight: bold;
+}
